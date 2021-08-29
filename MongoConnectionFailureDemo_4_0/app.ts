@@ -24,6 +24,8 @@ async function test(url: string): Promise<void> {
     await test("mongodb://localhost:27017");
     await test("mongodb://10.2.0.18:27017");
     await test("mongodb://10.2.0.30:27017");
+    await test("mongodb://192.168.4.71:27017");
+    await test("mongodb://40.67.xxx.xxx:27017");
 
 })();
 

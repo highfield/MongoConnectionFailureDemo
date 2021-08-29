@@ -33,7 +33,8 @@ function test(url) {
         yield test("mongodb://localhost:27017");
         yield test("mongodb://10.2.0.18:27017");
         yield test("mongodb://10.2.0.30:27017");
-        yield test("mongodb://10.2.0.26:27017");
+        yield test("mongodb://192.168.4.71:27017");
+        yield test("mongodb://40.67.xxx.xxx:27017");
     });
 })();
 //# sourceMappingURL=app.js.map
